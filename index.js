@@ -16,7 +16,6 @@ async function main(){
             }
             else{
                 console.log('Faux, ce n\'est pas la bonne reponse');
-                break
             }
         }
         const restart = await getRestart();
